@@ -5,7 +5,8 @@ class Shoe
     @brand = brand
   end
 
-  attr_accessor :brand, :color, :size, :material, :condition
+  attr_accessor :brand, :color, :size, :material
+  attr_reader: :condition
   
   def turn_page
     puts "Flipping the page...wow, you read fast!"
